@@ -4,7 +4,7 @@
 => And the hole programme works using OOP.
 => Language of this programme is PYTHON.
 
-Output is like:
+=> Output is like:
 Welcome to CGPA Calculator
 
 Course || CGPA
