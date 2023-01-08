@@ -4,6 +4,9 @@
 => And the hole programme works using OOP.
 => Language of this programme is PYTHON.
 
+=> Formula: 
+Cumulative CGPA = ( summation of(individual course * individual credit) ) / ( total credit )
+
 => Output is like:
 Welcome to CGPA Calculator
 
