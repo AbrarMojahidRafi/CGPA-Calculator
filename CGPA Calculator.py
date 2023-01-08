@@ -1,5 +1,9 @@
 """This programme adds courses with cgpa, display cgpa, calculate cumulative cgpa, and doing some additional work.
 
+=> Here I use dictionary to store my CGPA and course. 
+=> And the hole programme works using OOP.
+=> Language of this programme is PYTHON.
+
 Output is like:
 Welcome to CGPA Calculator
 
