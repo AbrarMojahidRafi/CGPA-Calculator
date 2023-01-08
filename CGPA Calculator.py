@@ -5,7 +5,7 @@
 => Language of this programme is PYTHON.
 
 => Formula: 
-Cumulative CGPA = ( summation of(individual course * individual credit) ) / ( total credit )
+Cumulative CGPA = ( summation of(individual course cgpa * individual credit) ) / ( total credit )
 
 => Output is like:
 Welcome to CGPA Calculator
