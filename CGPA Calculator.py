@@ -1,17 +1,16 @@
-"""This programme adds courses with cgpa, display cgpa, calculate cumulative cgpa, and doing some additional work.
+# This programme adds courses with cgpa, display cgpa, calculate cumulative cgpa.
 
-=> Here I use dictionary to store my CGPA and course. 
-=> And the hole programme works using OOP.
-=> Language of this programme is PYTHON.
+# => Here I use dictionary to store my CGPA and course. 
+# => And the whole programme works using OOP.
+# => Language of this programme is PYTHON.
 
-=> Formula: 
-Cumulative CGPA = ( summation of(individual course cgpa * individual credit) ) / ( total credit )
+# => Formula: 
+# Cumulative CGPA = ( summation of(individual course cgpa * individual credit) ) / ( total credit )
 
-=> sample of storing data in "grades" class instance is:
-{'Semester=01': {'CSE110': 4.0, 'MAT110': 3.7}, 'Semester=02': {'CSE111': 4.0, 'CSE260': 3.7, 'ENG101': 2.7, 'MAT120': 4.0}, 'Semester=03': {'CSE220': 3.3, 'CSE230': 4.0, 'PHY111': 3.0, 'STA201': 3.7}}
+# => sample of storing data in "grades" class instance is:
+# {'Semester=01': {'CSE110': 4.0, 'MAT110': 3.7}, 'Semester=02': {'CSE111': 4.0, 'CSE260': 3.7, 'ENG101': 2.7, 'MAT120': 4.0}, 'Semester=03': {'CSE220': 3.3, 'CSE230': 4.0, 'PHY111': 3.0, 'STA201': 3.7}}
 
 
-"""
 
 
 class CGPA_Calculator:
