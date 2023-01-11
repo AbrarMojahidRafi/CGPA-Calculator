@@ -11,8 +11,6 @@
 # {'Semester=01': {'CSE110': 4.0, 'MAT110': 3.7}, 'Semester=02': {'CSE111': 4.0, 'CSE260': 3.7, 'ENG101': 2.7, 'MAT120': 4.0}, 'Semester=03': {'CSE220': 3.3, 'CSE230': 4.0, 'PHY111': 3.0, 'STA201': 3.7}}
 
 
-
-
 class CGPA_Calculator:
   grades={}
   allMethods=[]
@@ -52,12 +50,6 @@ class CGPA_Calculator:
       print("The CGPA is = {:.2f}".format(sum/(numOfCourse*3)))
       print("Total Courses =", numOfCourse)
 
-  def deleteSemesterAndCourseBoth(self, semester):
-    del CGPA_Calculator.grades[semester]
-  def courseDelete(self,semester,course):
-    del CGPA_Calculator.grades[semester][course]
-
-
 
 ####################################################################################
 ################################## Driver Code #####################################
@@ -78,8 +70,6 @@ c1.addCourseWithCGPA("Semester=03","CSE230", 4.0)
 c1.addCourseWithCGPA("Semester=03","PHY111", 3.0)
 c1.addCourseWithCGPA("Semester=03","STA201", 3.7)
 
-# c1.deleteSemesterAndCourseBoth("Semester=03")
-# c1.courseDelete("Semester=03","PHY111")
 
 c1.showCourseWithCGPA()
 c1.calculateCGPA()
