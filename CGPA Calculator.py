@@ -12,8 +12,10 @@
 
 
 class CGPA_Calculator:
+
   grades={}
   allMethods=[]
+  
   def __init__(self):
     print("Welcome to CGPA Calculator")
 
